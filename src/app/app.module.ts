@@ -21,9 +21,10 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatChipsModule } from '@angular/material/chips';
 import { MouseFollowerAnimationComponent } from './mouse-follower-animation/mouse-follower-animation.component';
+import { BackgroundAnimatedTextComponent } from './background-animated-text/background-animated-text.component';
 
 @NgModule({
-  declarations: [AppComponent, MouseFollowerAnimationComponent],
+  declarations: [AppComponent, MouseFollowerAnimationComponent, BackgroundAnimatedTextComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
