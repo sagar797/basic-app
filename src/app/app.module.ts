@@ -22,12 +22,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatChipsModule } from '@angular/material/chips';
 import { MouseFollowerAnimationComponent } from './mouse-follower-animation/mouse-follower-animation.component';
 import { BackgroundAnimatedTextComponent } from './background-animated-text/background-animated-text.component';
+import { MovingCircleAnimationComponent } from './moving-circle-animation/moving-circle-animation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MouseFollowerAnimationComponent,
     BackgroundAnimatedTextComponent,
+    MovingCircleAnimationComponent,
   ],
   imports: [
     BrowserModule,
